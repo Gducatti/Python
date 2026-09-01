@@ -38,3 +38,9 @@ produtos_loja1 = tuple(('Caneta', 'Caderno', 'Mochila'))
 produtos_loja2 = tuple(('Estojo', 'Régua'))
 todos_produtos = tuple([produtos_loja1 + produtos_loja2])
 print(todos_produtos)
+
+#EX05
+tupla = (3, 15, 7, 42, 8, 19, 4, 26, 11)
+print(tupla[0:4])
+print(tupla[6:9])
+print(tupla[::-1])
